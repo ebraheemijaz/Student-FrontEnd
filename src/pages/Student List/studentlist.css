@@ -1,0 +1,16 @@
+.studentlist .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.studentlist .top .icon {
+  font-size: 28px;
+}
+/*# sourceMappingURL=studentlist.css.map */

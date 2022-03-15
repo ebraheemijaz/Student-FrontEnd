@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,YADQ,CACR,IAAI,CAAA;EACA,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAC,IAAI;EACR,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;CAKpB;;AAXL,AAOQ,YAPI,CACR,IAAI,CAMA,KAAK,CAAA;EACD,SAAS,EAAE,IAAI;CAElB",
+    "sources": [
+        "studentlist.scss"
+    ],
+    "names": [],
+    "file": "studentlist.css"
+}

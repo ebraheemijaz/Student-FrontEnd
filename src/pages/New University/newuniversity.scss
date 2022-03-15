@@ -1,0 +1,65 @@
+.newuniversity{
+    width: 80vw;
+    margin: 0 auto;
+    .title{
+        padding: 5px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        .row1{
+            width: 100%;
+            input{
+                width: 100%;
+            }
+
+        }
+        .row2{
+            display: flex;
+            width: 100%;
+            gap: 8px;
+            input{
+                flex: 1;
+            }
+
+        }
+        .row3{
+            width: 100%;            
+            input{
+                width: 100%;
+            }
+
+        }
+        .row4{
+            width: 100%;            
+            input{
+                width: 100%;
+                background-color: #1976d2;
+                border: none;
+                color: white;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                &:hover{
+                    background-color: #0b2d4e;
+                    
+                }
+            }
+
+        }
+    }
+}
+input{
+    outline: none;
+    user-select: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

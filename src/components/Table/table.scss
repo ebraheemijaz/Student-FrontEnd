@@ -1,0 +1,32 @@
+.table{
+    width: 80vw;
+    border: 1px solid;
+    margin: 0 auto;
+    table {
+        width: 100%;
+        border: 1px solid red;
+        border-collapse: collapse;
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+          button{
+              background-color: #1976d2;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              height: 30px;
+              padding: 0px 10px;
+              cursor: pointer;
+              &:hover{
+                background-color: #0b2d4e;
+              }
+
+          }
+
+    }
+}

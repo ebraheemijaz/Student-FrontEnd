@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    height: 80px;
+    background-color: #1976d2;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+
+    .home-icon{
+        color: white;
+        font-size: 46px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px;
+        &:hover{
+            background-color: #104880;
+        }
+    }
+}
+    .left{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 22px;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 22px;
+        }
+    }
+
+}
+
+// .left{
+//     color: white;
+//     font-size: 24px;
+//     font-weight: bold;
+    
+// }
+// .right{
+//     color: white;
+//     font-size: 24px;
+//     font-weight: bold;
+// }
+// a{
+//     text-decoration: none;
+//     color: white;
+//     letter-spacing: 0.1rem;
+//     padding: 10px;
+// }
+// a:hover{
+//     background-color: #1e1f2077;
+//     border-radius: 5px;
+//     color: rgb(255, 255, 255);
+// }
